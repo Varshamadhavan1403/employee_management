@@ -1,0 +1,71 @@
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+**/__pycache__
+*.py[cod]
+*.pyc
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+.env
+*.env*
+venv/
+ofcenv/
+build/
+develop-eggs/
+dist/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+.eggs/
+.vscode/
+
+# celerybeat-schedule.db
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Pycharm project files
+.idea/
+
+# PyTest cache
+.pytest_cache/
+
+# Coverage
+.coverage
+coverage.xml
+
+# Tox
+.tox/
+.cache/
+.python-version
+
+# VirtualEnv
+.venv/
+.ofcenv/
+
+# Developers
+*.sw*
+# manage.py
+.DS_Store
+
+# example database
+db.sqlite3
+
+#static
+
+static
+media
+env_name
+#migrations
+**/migrations/**
+!**/migrations
+!**/migrations/__init__.py
